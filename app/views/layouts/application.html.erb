@@ -13,32 +13,27 @@
     <nav class='nav'>
       <%= image_tag('BlogMore2.jpg', size: '250x150') %>
       <div class='ahome'>
-      <%= link_to 'Home', static_home_path %>
-    </div>
-    <div class='aabout'>
-      <%= link_to 'About', static_about_path %>
-    </div>
-    <div class='ablogs'>
-      <%= link_to 'Blogs', posts_path %>
-    </div>
-    <div class='acontacts'>
-      <%= link_to 'Contacts', new_contact_path %>
-    </div>
-
+        <%= link_to 'Home', static_home_path %>
+      </div>
+      <div class='aabout'>
+        <%= link_to 'About', static_about_path %>
+      </div>
+      <div class='ablogs'>
+        <%= link_to 'Blogs', posts_path %>
+      </div>
+      <div class='acontacts'>
+        <%= link_to 'Contacts', new_contact_path %>
+      </div>
     </nav>
-
   </head>
-<div class='container'>
-
-
-<%= yield %>
-
-</div>
+  <div class='container'>
+    <%= yield %>
+  </div>
 </body>
 <div id='footer'>
-<footer>
-  copyright &copy; <%= Time.now.year %>
-</footer>
+  <footer>
+    copyright &copy; <%= Time.now.year %>
+  </footer>
 </div>
 
 </html>

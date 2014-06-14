@@ -2,21 +2,14 @@
   <h1>Posts</h1>
 </div>
 <div class="posts">
-  <div class="title">
-      <% @posts.each do |post| %>
-      <h1><%= link_to post.title, post %></h1>
-        <!-- <h2><%= post.title %></h2> -->
-  </div>
-  <div class = "body">
-          <%= post.body %>
-  </div>
-  <div class = "author">
-          <h5>Author: <%= post.author %></h5>
-  </div>
-      <div class="actions">
-
-              <% end %>
-      </div>
-
-      <%= link_to '', new_post_path, :class => 'icon-file' %>
+  <% @posts.each do |post| %>
+    <h1><%= link_to post.title, post %></h1>
+    <!-- <div class = "body"> -->
+      <%= post.body %>
+    <!-- </div> -->
+    <!-- <div class = "author"> -->
+      <h5>Author: <%= post.author %></h5>
+    <!-- </div> -->
+  <% end %>
 </div>
+<%= link_to 'Create New Post', new_post_path, :class => 'icon-file' %>
