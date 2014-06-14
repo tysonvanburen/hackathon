@@ -1,5 +1,5 @@
 .wrapper {
-  background: url("grey_wash_wall.png");
+  background: url("old_map.png");
   height: 900px;
   font-family: Helvetica;
   margin: 1%;
@@ -9,6 +9,7 @@
 h1 {
   text-align: center;
   padding-top: 25px;
+  color: gray;
 }
 
 nav {
@@ -44,13 +45,14 @@ nav {
 a {
   text-decoration: none;
   padding: 10px;
-  color: white;
+  color: #0055FE;
   font-size: 20px;
 }
 p {
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
+  color: gray;
 }
 
 #footer {
