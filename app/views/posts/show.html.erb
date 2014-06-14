@@ -14,7 +14,7 @@
   <%= @post.author %>
 </p>
 <div class="post-links">
-<%= link_to '', posts_path, :class => 'icon-reply' %> |
+<%= link_to '', posts_path, :class => 'icon-list' %> |
 <%= link_to '', root_path, :class => 'icon-home' %> |
 <%= link_to '', edit_post_path(@post), :class => 'icon-pencil' %> |
 <%= link_to '', @post, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'icon-remove' %>
