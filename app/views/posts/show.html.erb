@@ -4,6 +4,9 @@
   <strong><%= @post.title %></strong>
 </p>
 <p>
+  <%= image_tag @post.image.url(:thumb) %>
+</p>
+<p>
   <%= @post.body %>
 </p>
 <p>

@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20140614163127) do
     t.string   "title"
     t.string   "author"
     t.text     "body"
+    t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
