@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
+  resources :contacts
+
   resources :posts
 
   get 'static/home'
 
   get 'static/about'
   get 'static/blog'
-  get 'static/contacts'
   root 'static#home'
 
 

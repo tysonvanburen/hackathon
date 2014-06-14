@@ -1,8 +1,11 @@
+
 .wrapper {
   background: url("old_map.png");
+}
+
+.container {
   height: 900px;
   font-family: Helvetica;
-  margin: 1%;
 }
 
 
@@ -16,6 +19,23 @@ nav {
   text-decoration: none;
   border-bottom: solid 4px #eee;
 
+}
+
+.field_name {
+  padding: 15px;
+}
+
+.field_email {
+  padding: 15px;
+}
+
+.field_phone {
+  padding: 15px;
+}
+
+.field_actions {
+  padding: 15px;
+  padding-right: 15px;
 }
 
 .ahome {
@@ -39,6 +59,14 @@ nav {
   margin: 25px;
   padding: 10px;
   background: #F7EF00;
+  border-radius: 25px;
+}
+
+.acontacts {
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  background: #2B7BE3;
   border-radius: 25px;
 }
 
