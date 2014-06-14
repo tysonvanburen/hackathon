@@ -7,8 +7,33 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <head>
+    <nav class='nav'>
+      <%= image_tag('BlogMore2.jpg', size: '250x150') %>
+      <div class='ahome'>
+      <%= link_to 'Home', static_home_path %>
+    </div>
+    <div class='aabout'>
+      <%= link_to 'About', static_about_path %>
+    </div>
+    <div class='ablogs'>
+      <%= link_to 'Blogs', static_blog_path %>
+    </div>
+
+    </nav>
+
+  </head>
+<div class='wrapper'>
+
 
 <%= yield %>
 
+</div>
 </body>
+<div id='footer'>
+<footer>
+  copyright &copy; <%= Time.now.year %>
+</footer>
+</div>
+
 </html>
