@@ -1,0 +1,63 @@
+.wrapper {
+  background: url("grey_wash_wall.png");
+  height: 900px;
+  font-family: Helvetica;
+  margin: 1%;
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+nav {
+  text-decoration: none;
+  border-bottom: solid 4px #eee;
+
+}
+
+.ahome {
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  background: #E6293F;
+  border-radius: 25px;
+}
+
+.aabout {
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  background: #A7EB63;
+  border-radius: 25px;
+}
+
+.ablogs {
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  background: #F7EF00;
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+p {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#footer {
+  bottom: 0;
+  width: 100px;
+  height: 60px;
+  text-align: left;
+  padding-left: 25px;
+  border-top: solid 4px #eee;
+}
